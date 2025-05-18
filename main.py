@@ -15,3 +15,5 @@ print(pd.DataFrame({'Bob': ['I liked it.', 'It was awful.'],
 
 # Series is a list
 print(pd.Series([1, 2, 3, 4, 5]))
+# Custon Indexing
+print(pd.Series([1, 2, 3, 4, 5], index =["2015 Sales", "2016 Sales", "2017 Sales", "2018 Sales", "2019 Sales"]))
